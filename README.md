@@ -24,8 +24,8 @@ Ejemplo en el dashboard (Lovelace):
 
 type: history-graph
 entities:
-  - entity: sensor.bizi_24_bikes
-  - entity: sensor.bizi_24_docks
+  - entity: sensor.bizi_9_bikes
+  - entity: sensor.bizi_9_docks
 hours_to_show: 24
 refresh_interval: 60
 
