@@ -1,0 +1,9 @@
+{
+  "domain": "bizi_zaragoza",
+  "name": "Bizi Zaragoza",
+  "version": "1.0.0",
+  "documentation": "https://github.com/ocsic/bizi_zaragoza",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@ocsic"]
+}
