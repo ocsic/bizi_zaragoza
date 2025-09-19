@@ -6,28 +6,33 @@ Instalación:
   - Dentro pon los 3 archivos
   - Ahora añade sensores indicando el ID de estación:
 
+```
 sensor:
   - platform: bizi_zaragoza
     station_id: "9"   # 34-Coso Bajo
   - platform: bizi_zaragoza
     station_id: "37"   # 11-Pza. Europa
+```
 
 Esto te creará 2 sensores por estación:
 
+```
 sensor.bizi_9_bikes → bicis disponibles
 sensor.bizi_9_docks → huecos libres
 sensor.bizi_37_bikes → bicis disponibles
 sensor.bizi_37_docks → huecos libres
-
+```
 
 Ejemplo en el dashboard (Lovelace):
 
+```
 type: history-graph
 entities:
   - entity: sensor.bizi_9_bikes
   - entity: sensor.bizi_9_docks
 hours_to_show: 24
 refresh_interval: 60
+```
 
 Lista de ids de estaciones:
 - [id] nombre estación
